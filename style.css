@@ -1,0 +1,219 @@
+body {
+  background: url(images/runkeeper-bg.jpg) no-repeat;
+  background-size: cover;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #1596D2;
+}
+nav ul {
+  float: right;
+  margin-right: 176px;
+  margin-top: 10px;
+
+}
+nav img {
+  width: 22px;
+  height: 54px;
+  margin: -6px 0  0 150px;
+  float: left;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+nav li {
+  display: inline-block;
+  padding-left: 10px;
+}
+.content {
+  width: 750px;
+  margin: 0 auto;
+  /*display: table-row;*/
+  /*why does not work with padding*/
+  /*padding-bottom: 15px;*/
+  padding-top: 66px;
+}
+.content:after {
+  clear: both;
+}
+.content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+.left-side {
+  float: left;
+}
+.right-side {
+  width: 370px;
+  float: right;
+  margin-top: 18px;
+}
+
+.clear{
+  clear: both;
+}
+.right-side img {
+  height: 65px;
+}
+h4, p {
+  color: #fff;
+  line-height: 1.5em;
+  font-family: 'Helvetica' , sans-serif;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+p {
+  font-size: 16px;
+  margin-top: 13px;
+}
+.sign-up {
+  background: rgba(233,233,233,0.20);
+  border-radius: 16px;
+  margin-top: 50px;
+  padding: 14px 21px 40px 21px;
+  color: #fff;
+  margin-bottom: 55px;
+}
+.sign-up a div {
+  width: 100%;
+  border-radius: 6px;
+  height: 33px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sign-up a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff;
+}
+.google {
+  background-color: #DD4B39;
+  box-shadow: 0 2px 0 0 #BC322D;
+}
+.google:hover {
+  background-color: #cc3a28;
+}
+.facebook {
+  background-color: #496DAD;
+  box-shadow: 0 2px 0 0 #3A5898;
+}
+.facebook:hover {
+  background-color: #385cac;
+}
+.hint {
+  text-align: center;
+  line-height: 15px;
+  font-size: 11px;
+}
+.divider {
+  background-color:  #e9e9e9;
+  height: 1px;
+  opacity: 0.5;
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #1CCC66;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 0 2px 0 0 #19B55A;
+}
+form button:hover {
+  background-color: #0bbb55;
+}
+.hint span {
+  color: #8BDBFF;
+}
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+.testimonials {
+  background-color: #ECF1F4;
+  padding: 60px 0;
+}
+.testimonialHead {
+  width: 253px;
+  height: 64px;
+}
+.testimonials p {
+  color: #688FA8;
+  font-size: 14px;
+  font-family: "Helvetica";
+  margin-top: 33px;
+}
+.testimonials li{
+  display: inline-block;
+}
+.testimonialsdivider {
+  width: 1px;
+  height: 225px;
+  background-color: rgba(104,143,168,0.1);
+  margin-right: 33px;
+  margin-top: 12px;
+}
+.pagination {
+  margin: 0 auto;
+  width: 960px;
+  text-align: center;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #688FA8;
+  opacity: 0.7;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.non-active {
+  background-color: #999;
+  margin-left: 3px;
+}
+footer {
+  background-color: #323A46;
+  text-align: center;
+  padding: 30px 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+footer li {
+  display: inline-block;
+  margin-left: 42px;
+}
+
+.privacy li {
+  margin-top: 40px;
+  color: #688FA8;
+  font-size: 13px;
+}
